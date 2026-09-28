@@ -1,5 +1,6 @@
 const fs = require("fs");
 
+const fileName="example.txt";
 // CREATE
 fs.writeFileSync("example.txt", "Hello, Node.js!");
 
